@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(#E0C3FC, #8EC5FC); ;
+ }
+ .container{
+    width: 90%;
+    max-width: 1050px;
+    min-width: 1000px;
+    background-image: linear-gradient(#E0C3FC, #8EC5FC);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(52, 39, 39);
+    display: flex;
+ }
+
+ /* parte do login*/
+ .login{
+    width: 50%;
+    padding: 70px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .login h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #5a6f83;;
+    text-align: center;
+    font-family: gerogia,serif;
+ }
+
+ .login{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+ }
+
+ .social img{
+    width: 42px;
+    height:42px ;
+    border: 1px solid;
+    border-radius: 8px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+    ;
+ }
+ .login p{
+margin-bottom: 25px;
+
+ }
+
+ form{
+    width: 100%;
+ }
+
+ .input-caixa label{
+    display: block;
+    margin-bottom: 5px;
+
+ }
+
+ .input-caixa input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+ }
+
+ .forgot{
+    display: block;
+    text-align: center;
+    margin: 20px 0 35px;
+    text-decoration: none;
+ }
+
+ button{
+    cursor: pointer;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    background-color: aqua;
+    font-weight: bold;
+    align-items: center;
+ }
+
+ .login button{
+    display: block;
+     margin: auto;
+     background-color: #5a6f83;;
+ }
+
+ /*area de boa vinda*/
+
+ .welcome{
+    width: 50%;
+    background-color:#5a6f83;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    border-radius: 50% 0 0 50%;
+ }
+
+ .welcome h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+ }
+ .welcome button{
+    margin-top: 15px;
+    background-color: transparent;
+    border: rgb(161, 158, 158) solid;
+ }
+.login button:hover{
+    background-color: #64809b;
+}
+
+.welcome button:hover{
+    background-color: #22445b;
+}
